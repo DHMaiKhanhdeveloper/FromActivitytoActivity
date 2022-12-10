@@ -39,9 +39,10 @@ public class BackActivityP2 extends AppCompatActivity {
 //        AppUtil.mEmail = strEmail;
         Intent returnintent = new Intent();
         returnintent.putExtra("key1",strEmail);
-        setResult(Activity.RESULT_OK,returnintent);
+        setResult(Activity.RESULT_OK,returnintent);// Intent Result (lấy lại kết quả từ activity)
 //        setResult(Activity.RESULT_OK);
         finish();
+        //Một activity có thể được đóng lại thông qua button back trên điện thoại. Trong trường hợp đó, hàm finish() sẽ được thực thi
 
 //        Intent intent = new Intent(BackActivityP1.this,)
     }

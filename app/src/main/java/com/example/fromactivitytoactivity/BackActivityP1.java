@@ -38,6 +38,7 @@ public class BackActivityP1 extends AppCompatActivity {
         String strEmail = edtEmail.getText().toString().trim();
         AppUtil.mEmail = strEmail;
         finish();
+        //Một activity có thể được đóng lại thông qua button back trên điện thoại. Trong trường hợp đó, hàm finish() sẽ được thực thi
 
 //        Intent intent = new Intent(BackActivityP1.this,)
     }
